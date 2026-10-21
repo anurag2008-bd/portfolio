@@ -38,15 +38,15 @@ export const Skills = () => {
                         <p>Skilled in Python programming, problem-solving, and logical thinking, with a growing interest in web and app development. Always eager to learn new technologies and build creative solutions.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src={meter1} alt="Web development skill level" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="" />
+                                <img src={meter2} alt="AI and machine learning skill level" />
                                 <h5>AI/ML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="" />
+                                <img src={meter1} alt="App development skill level" />
                                 <h5>App Development</h5>
                             </div>
                         </Carousel>
